@@ -55,7 +55,6 @@ output_csv = r"E:\TEST_SMILES\filtered_compounds_v2.csv"
 df_filtered.to_csv(output_csv, index=False)
 print(f"Filtered compounds saved to '{output_csv}'")
 
-# Generate PDB files
 dock_folder = r"E:\TEST_SMILES\docking_ligands"
 os.makedirs(dock_folder, exist_ok=True)
 
