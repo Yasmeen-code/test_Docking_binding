@@ -58,9 +58,9 @@ def max_tanimoto(smiles):
 # =====================================
 # Apply Tanimoto filtering
 # =====================================
-df_filtered['Tanimoto'] = df_filtered['SMILES'].apply(max_tanimoto)
-df_filtered = df_filtered[(df_filtered['Tanimoto'] >= 0.1) & (df_filtered['Tanimoto'] <= 0.9)]
-print("After Tanimoto filter:", len(df_filtered))
+#df_filtered['Tanimoto'] = df_filtered['SMILES'].apply(max_tanimoto)
+#df_filtered = df_filtered[(df_filtered['Tanimoto'] >= 0.1) & (df_filtered['Tanimoto'] <= 0.9)]
+#print("After Tanimoto filter:", len(df_filtered))
 
 # =====================================
 # Remove compounds with unwanted atoms
